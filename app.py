@@ -4,7 +4,7 @@ import os
 import socket
 
 
-# test
+# test demo
 
 app = Flask(__name__)
 redis = StrictRedis(host=os.environ.get('REDIS_HOST', '127.0.0.1'),
